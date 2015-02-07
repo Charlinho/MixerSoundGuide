@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mixer Sound Guide</string>
+    <string name="action_settings">Configurações</string>
+    
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    
+    <string name="title_sub_grave">Sub Grave</string>
+    <string name="title_grave">Grave</string>
+    <string name="title_medio_grave">Médio Grave</string>
+    <string name="title_medio_alto">Médio Alto</string>
+
+</resources>
