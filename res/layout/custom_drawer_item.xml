@@ -28,8 +28,8 @@
                 android:id="@+id/drawer_itemName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:layout_marginTop="10dp" />
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginTop="15dp" />
         </LinearLayout>
 
         <View
@@ -40,6 +40,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="1dp" >
         </View>
+        
     </LinearLayout>
 
 </RelativeLayout>

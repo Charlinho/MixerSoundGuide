@@ -10,7 +10,8 @@
         android:layout_height="60dp"
 		android:padding="5dp" />
 
-    <LinearLayout android:layout_width="wrap_content"
+    <LinearLayout 
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical">
     
@@ -22,15 +23,18 @@
 	        android:textAppearance="?android:attr/textAppearanceMedium"
 	        android:layout_marginLeft="10dp"
 	        android:layout_marginTop="5dp"
+	        android:textColor="#D14130"
 	        android:padding="2dp"
-	        android:textColor="#33CC33" />
+	        android:textStyle="bold" 
+	        android:textSize="20sp" />
 	    
 	    <TextView
 	        android:id="@+id/textView1"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:text="TextView" 
-	        android:layout_marginLeft="14dp"/>
+	        android:layout_marginLeft="14dp"
+	        android:textColor="#A9A9A9" />
 	    
 	</LinearLayout>
 </LinearLayout>

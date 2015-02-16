@@ -1632,17 +1632,19 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020030;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
         public static final int abc_textfield_search_material=0x7f020032;
-        public static final int drawer_shadow=0x7f020033;
-        public static final int ic_action_volume_on=0x7f020034;
-        public static final int ic_app=0x7f020035;
-        public static final int ic_auto_falante=0x7f020036;
+        public static final int ic_acoustic_bass=0x7f020033;
+        public static final int ic_app=0x7f020034;
+        public static final int ic_auto_falante=0x7f020035;
+        public static final int ic_config=0x7f020036;
         public static final int ic_drawer=0x7f020037;
-        public static final int ic_frequencias=0x7f020038;
-        public static final int ic_home=0x7f020039;
+        public static final int ic_electric_bass=0x7f020038;
+        public static final int ic_frequencias=0x7f020039;
+        public static final int ic_home=0x7f02003a;
+        public static final int ic_pause=0x7f02003b;
+        public static final int ic_piano=0x7f02003c;
+        public static final int ic_play=0x7f02003d;
     }
     public static final class id {
-        public static final int Frequencia=0x7f09004c;
-        public static final int Instrumento=0x7f09004d;
         public static final int action_bar=0x7f090031;
         public static final int action_bar_activity_content=0x7f090003;
         public static final int action_bar_container=0x7f090030;
@@ -1656,12 +1658,12 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09002e;
         public static final int action_mode_bar_stub=0x7f09002d;
         public static final int action_mode_close_button=0x7f090020;
-        public static final int action_settings=0x7f090050;
+        public static final int action_settings=0x7f090051;
         public static final int activity_chooser_view_content=0x7f090021;
         public static final int always=0x7f090014;
         public static final int beginning=0x7f09001b;
-        public static final int btnParar=0x7f09004f;
-        public static final int btnReproduzir=0x7f09004e;
+        public static final int btnParar=0x7f090050;
+        public static final int btnReproduzir=0x7f09004f;
         public static final int checkbox=0x7f090029;
         public static final int collapseActionView=0x7f090015;
         public static final int content_frame=0x7f090041;
@@ -1676,6 +1678,8 @@ containing a value of this type.
         public static final int edit_query=0x7f090033;
         public static final int end=0x7f09001c;
         public static final int expand_activities_button=0x7f090022;
+        public static final int expandableListView=0x7f090043;
+        public static final int expandedListItem=0x7f09004d;
         public static final int expanded_menu=0x7f090028;
         public static final int frag1_text=0x7f090049;
         public static final int fragHome_icon=0x7f090047;
@@ -1685,11 +1689,11 @@ containing a value of this type.
         public static final int icon=0x7f090026;
         public static final int ifRoom=0x7f090016;
         public static final int image=0x7f090023;
-        public static final int item=0x7f09004b;
+        public static final int item=0x7f09004c;
         public static final int itemLayout=0x7f090044;
         public static final int left_drawer=0x7f090042;
         public static final int listMode=0x7f09000a;
-        public static final int listView=0x7f090043;
+        public static final int listTitle=0x7f09004b;
         public static final int list_item=0x7f090025;
         public static final int lista=0x7f09004a;
         public static final int middle=0x7f09001d;
@@ -1709,6 +1713,7 @@ containing a value of this type.
         public static final int search_plate=0x7f090039;
         public static final int search_src_text=0x7f09003a;
         public static final int search_voice_btn=0x7f09003e;
+        public static final int seekBar=0x7f09004e;
         public static final int shortcut=0x7f09002a;
         public static final int showCustom=0x7f090010;
         public static final int showHome=0x7f090011;
@@ -1780,9 +1785,11 @@ containing a value of this type.
         public static final int custom_drawer_item=0x7f03001c;
         public static final int fragment_layout_home=0x7f03001d;
         public static final int fragment_layout_one=0x7f03001e;
-        public static final int lista_frequencias=0x7f03001f;
-        public static final int lista_reproduz_frequencia=0x7f030020;
-        public static final int support_simple_spinner_dropdown_item=0x7f030021;
+        public static final int layou_button_player=0x7f03001f;
+        public static final int list_group=0x7f030020;
+        public static final int lista_frequencias=0x7f030021;
+        public static final int lista_reproduz_frequencia=0x7f030022;
+        public static final int support_simple_spinner_dropdown_item=0x7f030023;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -1859,10 +1866,9 @@ containing a value of this type.
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     
 
-        Base application theme for API 11+. This theme completely replaces
-        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     
- API 11 theme customizations can go here. 
 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
@@ -1870,6 +1876,8 @@ containing a value of this type.
          */
         public static final int AppBaseTheme=0x7f0b00eb;
         /**  Application theme. 
+ All customizations that are NOT specific to a particular API-level can go here. 
+ Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 

@@ -2,51 +2,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="4dp" >
+    android:padding="20dp" >
 
     <TextView
-        android:id="@+id/Frequencia"
+        android:id="@+id/expandedListItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:text="Frequência:"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
 
-    <TextView
-        android:id="@+id/Instrumento"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/Frequencia"
-        android:layout_marginTop="5dp"
-        android:text="Instrumento:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="16sp" />
+        android:layout_marginTop="50dp" >
 
-    <Button
-        android:id="@+id/btnReproduzir"
-        android:layout_width="90dp"
-        android:layout_height="40dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:background="#99CC"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:text="Reproduzir"
-        android:textColor="#FFFFFF" />
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/btnParar"
-        android:layout_width="90dp"
-        android:layout_height="40dp"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/btnReproduzir"
-        android:layout_marginTop="3dp"
-        android:background="#99CC"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:text="Parar"
-        android:textColor="#FFFFFF" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentRight="true">
+
+        <Button
+            android:id="@+id/btnReproduzir"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@layout/layou_button_player"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <Button
+            android:id="@+id/btnParar"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btnReproduzir"
+            android:layout_marginTop="3dp"
+            android:background="#99CC"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="Parar"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
 
 </RelativeLayout>

@@ -40,8 +40,9 @@ public class CustomDrawerAdapter extends ArrayAdapter<DrawerItem> {
 			drawerHolder = new DrawerItemHolder();
 
 			view = inflater.inflate(layoutResID, parent, false);
-			drawerHolder.ItemName = (TextView) view
-					.findViewById(R.id.drawer_itemName);
+			drawerHolder.ItemName = (TextView) view.findViewById(R.id.drawer_itemName);
+			
+			
 			drawerHolder.icon = (ImageView) view.findViewById(R.id.drawer_icon);
 
 			view.setTag(drawerHolder);
