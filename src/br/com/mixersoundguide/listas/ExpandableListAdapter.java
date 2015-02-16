@@ -48,9 +48,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = layoutInflater.inflate(R.layout.lista_reproduz_frequencia, null);
         }
-        TextView expandedListTextView = (TextView) convertView.findViewById(R.id.expandedListItem);		
-        Button btnReproduzir = (Button) convertView.findViewById(R.id.btnReproduzir);
-		Button btnParar = (Button) convertView.findViewById(R.id.btnParar);
+        TextView expandedListTextView = (TextView) convertView.findViewById(R.id.expandedListItem);
 		
         expandedListTextView.setText(expandedListText);
         return convertView;

@@ -10,7 +10,7 @@
         android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
         android:paddingTop="15dp"
         android:textSize="15sp"
-        android:textColor="#A9A9A9" />
+        android:textColor="#008000" />
 
     <ImageView
         android:id="@+id/icon"

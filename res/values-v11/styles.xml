@@ -9,7 +9,7 @@
     </style>
     
     <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
-        <item name="android:background">#404040</item>
+        <item name="android:background">#1E94D3</item>
         <item name="android:titleTextStyle">@style/Theme.MixerSoundGuide.ActionBar.TitleTextStyle</item>       
     </style>
     
