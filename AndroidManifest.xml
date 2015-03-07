@@ -22,21 +22,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity 
+        <activity
             android:name="br.com.mixersoundguide.activity.SubGraveActivity"
             android:label="Sub Grave" >
         </activity>
-        <activity 
+        <activity
             android:name="br.com.mixersoundguide.activity.GraveActivity"
             android:label="Grave" >
         </activity>
-        <activity 
+        <activity
             android:name="br.com.mixersoundguide.activity.MedioGraveActivity"
             android:label="Médio Grave" >
         </activity>
-        <activity 
+        <activity
             android:name="br.com.mixersoundguide.activity.MedioAltoActivity"
             android:label="Médio Alto" >
+        </activity>
+        <activity
+            android:name="br.com.mixersoundguide.activity.PlayerActivity"
+            android:label="Player" >
         </activity>
     </application>
 

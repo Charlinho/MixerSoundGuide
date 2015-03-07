@@ -18,8 +18,8 @@ public final class R {
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
         public static final int drawer_shadow=0x7f020000;
@@ -37,49 +37,59 @@ public final class R {
         public static final int ic_play=0x7f02000c;
     }
     public static final class id {
-        public static final int action_settings=0x7f080010;
-        public static final int content_frame=0x7f080002;
-        public static final int drawer_icon=0x7f080006;
-        public static final int drawer_itemName=0x7f080007;
-        public static final int drawer_layout=0x7f080001;
-        public static final int expandableListView=0x7f080004;
-        public static final int expandedListItem=0x7f08000f;
-        public static final int frag1_text=0x7f08000a;
-        public static final int fragHome_icon=0x7f080008;
-        public static final int fragHome_text=0x7f080009;
-        public static final int icon=0x7f08000d;
-        public static final int item=0x7f08000e;
-        public static final int itemLayout=0x7f080005;
-        public static final int left_drawer=0x7f080003;
-        public static final int listTitle=0x7f08000c;
-        public static final int lista=0x7f08000b;
-        public static final int textView1=0x7f080000;
+        public static final int action_settings=0x7f090015;
+        public static final int content_frame=0x7f090002;
+        public static final int drawer_icon=0x7f09000b;
+        public static final int drawer_itemName=0x7f09000c;
+        public static final int drawer_layout=0x7f090001;
+        public static final int duracao=0x7f090005;
+        public static final int expandableListView=0x7f090009;
+        public static final int expandedListItem=0x7f090014;
+        public static final int frag1_text=0x7f09000f;
+        public static final int fragHome_icon=0x7f09000d;
+        public static final int fragHome_text=0x7f09000e;
+        public static final int icon=0x7f090012;
+        public static final int item=0x7f090013;
+        public static final int itemLayout=0x7f09000a;
+        public static final int left_drawer=0x7f090003;
+        public static final int listTitle=0x7f090011;
+        public static final int lista=0x7f090010;
+        public static final int media_pause=0x7f090008;
+        public static final int media_play=0x7f090007;
+        public static final int nomeMidi=0x7f090004;
+        public static final int seekBar=0x7f090006;
+        public static final int textView1=0x7f090000;
     }
     public static final class layout {
         public static final int activity_grave=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_medio_alto=0x7f030002;
         public static final int activity_medio_grave=0x7f030003;
-        public static final int activity_sub_grave=0x7f030004;
-        public static final int custom_drawer_item=0x7f030005;
-        public static final int fragment_layout_home=0x7f030006;
-        public static final int fragment_layout_one=0x7f030007;
-        public static final int list_group=0x7f030008;
-        public static final int lista_frequencias=0x7f030009;
-        public static final int lista_reproduz_frequencia=0x7f03000a;
+        public static final int activity_player=0x7f030004;
+        public static final int activity_sub_grave=0x7f030005;
+        public static final int custom_drawer_item=0x7f030006;
+        public static final int fragment_layout_home=0x7f030007;
+        public static final int fragment_layout_one=0x7f030008;
+        public static final int list_group=0x7f030009;
+        public static final int lista_frequencias=0x7f03000a;
+        public static final int lista_reproduz_frequencia=0x7f03000b;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
+    }
+    public static final class raw {
+        public static final int piano_2_5k=0x7f040000;
+        public static final int piano_32hz=0x7f040001;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int drawer_close=0x7f050003;
-        public static final int drawer_open=0x7f050002;
-        public static final int title_grave=0x7f050005;
-        public static final int title_medio_alto=0x7f050007;
-        public static final int title_medio_grave=0x7f050006;
-        public static final int title_sub_grave=0x7f050004;
+        public static final int action_settings=0x7f060001;
+        public static final int app_name=0x7f060000;
+        public static final int drawer_close=0x7f060003;
+        public static final int drawer_open=0x7f060002;
+        public static final int title_grave=0x7f060005;
+        public static final int title_medio_alto=0x7f060007;
+        public static final int title_medio_grave=0x7f060006;
+        public static final int title_sub_grave=0x7f060004;
     }
     public static final class style {
         /** 
@@ -95,7 +105,7 @@ public final class R {
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
  Application theme. 
@@ -103,8 +113,8 @@ public final class R {
  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060002;
-        public static final int MyActionBar=0x7f060001;
-        public static final int Theme_MixerSoundGuide_ActionBar_TitleTextStyle=0x7f060003;
+        public static final int AppTheme=0x7f070002;
+        public static final int MyActionBar=0x7f070001;
+        public static final int Theme_MixerSoundGuide_ActionBar_TitleTextStyle=0x7f070003;
     }
 }
